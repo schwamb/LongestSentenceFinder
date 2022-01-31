@@ -32,6 +32,6 @@ with open('file.txt', encoding="utf8") as file:
     # print(longest_sentence)
     listToStr = ' '.join([str(elem) for elem in longest_sentence])
 
-print(listToStr) 
-print('The longest sentence in this fic is ' + str(longest) + ' words long.')
+    print(listToStr) 
+    print('The longest sentence in this fic is ' + str(longest) + ' words long.')
 # print((words_only_list[location]))
